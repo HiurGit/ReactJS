@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+.Header {
+  width: 100%;
+  height: 930px;
+  background: url("images/Rectangle9.png") no-repeat center;
+}
+.navbar {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+}
+.center {
+}
+.right {
+}
+.Header .navbar a {
+  padding-right: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.Header .navbar .center a {
+  font-weight: bold;
+  font-size: 30px;
+}
+.Header .navbar i {
+  padding-right: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.Header .content {
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+.Header .content .title1 {
+  margin-top: 200px;
+  font-family: serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.Header .content .title2 {
+  margin-top: 50px;
+
+  font-size: 17px;
+
+  text-align: center;
+}
+.Header .content button{
+    padding: 10px 30px;
+    color: #ffffff;
+    margin-top: 150px;
+    background-color: #2091F9;
+    font-size: 20px;
+    border: none;
+    border-radius: 35px;
+}
+
+.container{
+    margin-top: 200px;
+   text-align: center;
+    align-items: center;
+    color: #374754;
+}
+.container .title .title1{
+    font-size: 50px;
+}
+.container .title .title2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.container .row{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .row .a{
+    width: 250px;
+}
+.container .row .a i{
+    font-size: 40px;
+    color: blue;
+}
+.container .row .a .title1{
+    margin: 15px;
+    font-size: 22px;
+font-weight: bold;
+}
+.container .row .a .title2{
+    font-size: 17px; 
+}
+
+
+
+
+.container .row .b{
+    width: 250px;
+}
+.container .row .b i{
+    font-size: 40px;
+    color: blue;
+}
+.container .row .b .title1{
+    margin: 15px;
+    font-size: 22px;
+font-weight: bold;
+}
+.container .row .b .title2{
+    font-size: 17px; 
+}
+
+
+
+.container .row .c{
+    width: 250px;
+}
+.container .row .c i{
+    font-size: 40px;
+    color: blue;
+}
+.container .row .c .title1{
+    margin: 15px;
+    font-size: 22px;
+font-weight: bold;
+}
+.container .row .c .title2{
+    font-size: 17px; 
+}
+.container img{
+    margin-top: 100px;
+    width: 60%;
+}
